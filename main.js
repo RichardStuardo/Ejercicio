@@ -1,0 +1,11 @@
+var primerNumero = prompt("Ingrese un número")
+var segundoNumero = prompt("Ingrese otro número")
+var suma= Number(primerNumero) + Number(segundoNumero)
+var resta= Number(primerNumero) - Number(segundoNumero)
+var dividir= Number(primerNumero) / Number(segundoNumero)
+var multiplicar= Number(primerNumero) * Number(segundoNumero)
+
+alert ("El resultado de tus dos números sumados son:" + suma)
+alert ("El resultado de tus dos números restados son:" + resta)
+alert ("El resultado de tus dos números divididos son:" + dividir)
+alert ("El resultado de tus dos números multiplicados son:" + multiplicar)
